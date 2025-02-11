@@ -596,3 +596,140 @@
     margin-inline-start: 35px;
     inline-size: 360px;
 }
+
+
+/* ------------------------------- BANNER ------------------------------- */
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 248px 0 257px;
+    text-align: center;
+    background: url(./images/banner-bg-1.png) no-repeat left,
+    url(./images/banner-bg-2.png) no-repeat right bottom;
+}
+
+.banner__title {
+    margin-block-end: 32px;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 50px;
+    max-inline-size: 614px;
+}
+
+.banner__subtitle {
+    margin-block-end: 37px;
+    color: #6F7787;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    max-inline-size: 470px;
+}
+
+.banner__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 32px;
+    padding: 20px 55px;
+    color: #FFF;
+    font-family: 'DM-Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    background-color: var(--color-accent);
+    inline-size: fit-content;
+}
+
+
+/* ------------------------------- VIDEO-SECTION ------------------------------- */
+.video-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-block-start: 145px;
+    padding-block-end: 256px;
+    text-align: center;
+}
+
+/* --------------- background */
+.video-section::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background: url(./images/video-section-cover.png) no-repeat top / cover;
+}
+
+.video-section::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background-color: rgb(1 10 32 / 50%);
+}
+
+/* --------------- title */
+.video-section__title {
+    margin-block-end: 105px;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 50px;
+    inline-size: 1020px;
+}
+
+/* --------------- main video */
+.video-section__video-container {
+    margin-block-end: 125px;
+    inline-size: 1056px;
+    block-size: 594px;
+}
+
+.video-section__video {
+    border: none;
+    border-radius: 10px;
+}
+
+/* --------------- video list */
+.video-section__video-list {
+    display: flex;
+    gap: 62px;
+    inline-size: 1220px;
+}
+
+.video-item {
+    display: flex;
+    gap: 40px;
+}
+
+.video-item__video-box {
+    inline-size: 233px;
+    block-size: 151px;
+}
+
+.video-item__content {
+    margin-block-start: 4px;
+}
+
+.video-item__title {
+    margin-block-end: 23px;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: left;
+}
+
+.video-item__text {
+    color: rgb(255 255 255 / 70%);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    min-inline-size: 350px;
+}
