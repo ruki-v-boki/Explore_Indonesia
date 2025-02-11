@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'DM-Sans';
+    src: url('DMSans18pt-Regular.woff2') format('woff2'),
+        url('DMSans18pt-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM-Sans';
+    src: url('DMSans18pt-Bold.woff2') format('woff2'),
+        url('DMSans18pt-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans 18pt';
+    src: url('DMSans18pt-Medium.woff2') format('woff2'),
+        url('DMSans18pt-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+/*--------------------------ROBOTO */
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Black.woff2') format('woff2'),
+        url('Roboto-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
