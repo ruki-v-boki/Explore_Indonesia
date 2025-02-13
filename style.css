@@ -1,4 +1,8 @@
 
+html {
+    scroll-behavior: smooth;
+}
+
 .overlay {
     position: absolute;
     top: 0;
@@ -907,4 +911,92 @@
     font-size: 18px;
     background-color: var(--color-accent);
     inline-size: fit-content;
+}
+
+
+/* ------------------------------- FOOTER ------------------------------- */
+.footer {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 47px 155px 47px 83px;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    background-color: #010A20;
+}
+
+.footer__start-box {
+    display: flex;
+    align-items: center;
+    gap: 102px;
+}
+
+.footer__end-box {
+    display: flex;
+    align-items: center;
+    gap: 55px;
+    padding-block-start: 5px;
+}
+
+/* --------------- logo */
+.logo_footer {
+    gap: 9px;
+    margin-block-start: -5px;
+}
+
+.logo__text_footer {
+    color: #FFF;
+    line-height: 90%;
+    letter-spacing: 0;
+}
+
+.text-accent-color {
+    color: var(--color-accent);
+}
+
+/* --------------- menu */
+.footer__menu {
+    display: flex;
+    gap: 35px;
+    padding-block-start: 5px;
+}
+
+.footer__link {
+    letter-spacing: 0.5px;
+}
+
+/* --------------- social */
+.footer__social {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.copyright {
+    letter-spacing: 0.3px;
+}
+
+.footer__social-button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+/* --------------- anchor button */
+.go-to-start-button {
+    position: absolute;
+    top: -51px;
+    right: 99px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 50px;
+    background-color: var(--color-accent);
+    cursor: pointer;
+    block-size: 104px;
+    inline-size: 104px;
 }
